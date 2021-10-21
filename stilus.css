@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+body {
+  background-color: rgb(255, 241, 215);
+}
+
+main {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(252, 224, 173);
+  padding: 10px;
+  border: 1px solid orange;
+}
+
+header,
+footer {
+  margin: 20px;
+}
+
+article {
+  width: 170px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 10px;
+}
+
+article div {
+  background-color: rgb(247, 164, 10);
+  border: 1px solid orange;
+  border-radius: 50%;
+}
